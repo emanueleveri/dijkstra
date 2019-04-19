@@ -36,4 +36,4 @@ def main():
         nodo2 = str(input("Inserisci il nome del secondo nodo così calcolo la distanza  "))
         dist = dijkstra(grafo, nodo1,nodo2)
         print ( "Il costo del collegamento tra il nodo " + str(nodo1)+ " e il nodo " + str(nodo2) + " e' " + str(dist))
-main()
+main() 
